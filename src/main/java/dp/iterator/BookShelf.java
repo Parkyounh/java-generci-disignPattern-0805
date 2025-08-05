@@ -23,7 +23,7 @@ public class BookShelf implements Iterable<Book>{
 	}
 
 	@Override
-	public Iterator<Book> iterator() {
+	public Iterator<Book> iterator() { //객체 생성
 		return new BookShelfIterator(this);
 	}
 
